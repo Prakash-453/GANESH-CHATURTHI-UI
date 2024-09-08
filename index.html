@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh-Chaturthi-UI</title>
+    <style>
+        h1 {
+            margin-left: 440px;
+            margin-top: 30px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ganesh Chaturthi Wishes UI</h1>
+    
+    <script>
+        let div = document.createElement('div')
+        document.body.appendChild(div)
+        div.style.border = '3px solid pink'
+        div.style.height = '470px'
+        div.style.width = '445px'
+        div.style.borderRadius = '20px'
+        div.style.marginLeft = '380px'
+        div.style.marginTop = '20px'
+        div.style.padding = '24px'
+        div.style.backgroundColor='green'
+
+        p = document.createElement('p')
+        p.innerHTML = '<span style="color:Orange;font-size:20px;">Ganpati Bappa Morya!</span>May Lord Ganesha remove all obstacles and bless you with happiness and success.'
+        div.appendChild(p)
+        p.style.textAlign = 'center'
+        p.style.marginTop = '10px'
+        p.style.fontSize='17px'
+
+        image = document.createElement('img')
+        image.setAttribute('src', 'https://t3.ftcdn.net/jpg/06/32/65/78/240_F_632657852_a2AlJTD4454QxUHICo2P0Z8UHQiO1LBC.jpg')
+        div.appendChild(image)
+        image.style.padding = '30px'
+        image.style.height = '320px'
+        image.style.width = '345px'
+        image.style.marginTop = '-24px'
+        image.style.marginLeft = '20px'
+
+        p1 = document.createElement('p')
+        p1.innerHTML = 'Happy<br><span style="color:orange; font-size:30px; "> Ganesh Chaturthi</span>'
+        div.appendChild(p1)
+        p1.style.marginTop = '-10px'
+        p1.style.textAlign = 'center'
+        p1.style.fontSize='25px'
+    </script>
+</body>
+</html>
